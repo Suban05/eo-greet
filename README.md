@@ -15,7 +15,7 @@ Then run the bytecode program through JRE:
 java -cp target/classes org.eolang.Main greet.app 10
 ```
 
-You should see: 
+You will see:
 
 ```
 I am 10 years old!
