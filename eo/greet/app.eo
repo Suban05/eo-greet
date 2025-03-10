@@ -1,0 +1,11 @@
++package greet
++alias org.eolang.io.stdout
++alias org.eolang.txt.sprintf
+
+# Outputs the age.
+[args] > app
+  args.at 0 > age
+  stdout > @
+    sprintf
+      "I am %d years old!"
+      * age
