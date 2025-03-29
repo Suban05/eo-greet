@@ -17,6 +17,9 @@
         <configuration>
           <source>11</source>
           <target>11</target>
+          <compilerArgs>
+            <arg>-Xpkginfo:always</arg>
+          </compilerArgs>          
         </configuration>
       </plugin>
       <plugin>
@@ -29,11 +32,6 @@
               <goal>register</goal>
               <goal>compile</goal>
               <goal>transpile</goal>
-              <goal>xmir-to-phi</goal>
-              <goal>phi-to-xmir</goal>
-              <goal>place</goal>
-              <goal>unplace</goal>
-              <goal>unspile</goal>
             </goals>
             <configuration>
               <sourcesDir>${project.basedir}/eo</sourcesDir>
