@@ -31,6 +31,7 @@
               <goal>transpile</goal>
               <goal>xmir-to-phi</goal>
               <goal>phi-to-xmir</goal>
+              <goal>place</goal>
               <goal>unplace</goal>
               <goal>unspile</goal>
             </goals>
